@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         tripsTableOutlet.dataSource = self
         tripsTableOutlet.delegate = self
         
-        view.backgroundColor = UIColor(red: 30/255, green: 59/255, blue: 119/255, alpha: 1)
+        view.backgroundColor = UIColor(red: 30/255, green: 59/255, blue: 119/255, alpha: 1.0)
     }
 
 
